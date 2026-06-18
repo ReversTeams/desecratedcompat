@@ -1,11 +1,13 @@
 package net.reversteam.desecratedcompat.events;
 
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.tags.TagKey;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.level.block.entity.BlockEntity;
+import net.minecraft.world.level.material.Fluid;
 import net.minecraftforge.common.capabilities.ForgeCapabilities;
 import net.minecraftforge.event.entity.player.PlayerInteractEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -20,6 +22,7 @@ public class BloodBottleEventHandler {
     @SubscribeEvent
     public static void onRightClickBlock(PlayerInteractEvent.RightClickBlock event) {
         if (event.getLevel().isClientSide()) return;
+        if (event.getFace() == null) return;
 
         Player player = event.getEntity();
         InteractionHand hand = event.getHand();
@@ -31,15 +34,25 @@ public class BloodBottleEventHandler {
         if (be == null) return;
 
         be.getCapability(ForgeCapabilities.FLUID_HANDLER, event.getFace()).ifPresent(handler -> {
-            ResourceLocation bloodId = new ResourceLocation("desecratedcore", "blood");
+
+            ResourceLocation desecratedBlood = new ResourceLocation("desecratedcore", "blood");
+            ResourceLocation vampirismBlood = new ResourceLocation("vampirism", "blood");
+            TagKey<Fluid> forgeBloodTag = TagKey.create(ForgeRegistries.FLUIDS.getRegistryKey(), new ResourceLocation("forge", "blood"));
             
             for (int i = 0; i < handler.getTanks(); i++) {
                 FluidStack tankFluid = handler.getFluidInTank(i);
-                \
-                ResourceLocation fluidId = ForgeRegistries.FLUIDS.getKey(tankFluid.getFluid());
-                if (bloodId.equals(fluidId) && tankFluid.getAmount() >= 1000) {
+                if (tankFluid.isEmpty()) continue;
+                
+                Fluid fluid = tankFluid.getFluid();
+                ResourceLocation fluidId = ForgeRegistries.FLUIDS.getKey(fluid);
+                
+                boolean isTargetBlood = fluidId.equals(desecratedBlood) || 
+                                        fluidId.equals(vampirismBlood) || 
+                                        fluid.is(forgeBloodTag);
+                
+                if (isTargetBlood && tankFluid.getAmount() >= 1000) {
                     
-                    FluidStack toDrain = new FluidStack(tankFluid.getFluid(), 1000);
+                    FluidStack toDrain = new FluidStack(fluid, 1000);
                     FluidStack drained = handler.drain(toDrain, IFluidHandler.FluidAction.EXECUTE);
                     
                     if (drained.getAmount() >= 1000) {
