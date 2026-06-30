@@ -1,0 +1,28 @@
+{
+
+  "entity.simpleenemymod.ruunit": "Starlight Order Hunter",
+  "entity.simpleenemymod.usunit": "Gold Barar Hunter",
+  "entity.simpleenemymod.pmcunit": "Crescent Society Hunter",
+
+  "item.simpleenemymod.us_unit_spawn_egg": "Gold Barar Hunter Spawn Egg",
+  "item.simpleenemymod.us_squad_leader_spawn_egg": "Gold Barar Knight Spawn Egg",
+  "item.simpleenemymod.us_squad_unit_spawn_egg": "Gold Barar Squad Spawn Egg",
+
+  "item.simpleenemymod.ru_unit_spawn_egg": "Starlight Order Hunter Spawn Egg",
+  "item.simpleenemymod.ru_squad_leader_spawn_egg": "Starlight Order Oracle Spawn Egg",
+  "item.simpleenemymod.ru_squad_unit_spawn_egg": "Starlight Order Squad Spawn Egg",
+
+  "item.simpleenemymod.pmc_unit_spawn_egg": "Crescent Society Hunter Spawn Egg",
+  "item.simpleenemymod.pmc_squad_leader_spawn_egg": "Crescent Society Baron Spawn Egg",
+  "item.simpleenemymod.pmc_squad_unit_spawn_egg": "Crescent Society Squad Spawn Egg",
+
+  "item.simpleenemymod.recruit_table": "Recruit Table",
+  "block.simpleenemymod.recruit_table": "Recruit Table",
+
+  "creativeTab.simple_enemy_mod_tab": "Victorian Hunters",
+
+  "key.category.simpleenemymod.general": "Simple Enemy Mod",
+  "key.simpleenemymod.commander_menu": "Open Command Menu"
+
+
+}
