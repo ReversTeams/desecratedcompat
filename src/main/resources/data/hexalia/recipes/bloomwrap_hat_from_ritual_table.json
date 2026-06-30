@@ -1,0 +1,23 @@
+{
+  "type": "hexalia:ritual_table",
+  "ingredients": [
+    {
+      "item": "hexalia:moonweave_hood"
+    },
+    {
+      "item": "hexalia:silk_fiber"
+    },
+    {
+      "item": "desecratedcore:all_node"
+    },
+    {
+      "item": "hexalia:mandrake"
+    },
+    {
+      "item": "minecraft:rooted_dirt"
+    }
+  ],
+  "output": {
+    "item": "hexalia:bloomwrap_hat"
+  }
+}

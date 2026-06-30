@@ -1,0 +1,15 @@
+{
+  "type": "neepmeat:entity_manufacture",
+  "base": {
+    "id": "neepmeat:mob_egg"
+  },
+  "steps": [
+    {
+      "id": "neepmeat:inject",
+      "resource": "desecratedcore:blood"
+    }
+  ],
+  "implant_installer": {
+    "id": "neepmeat:hatch_mob_egg"
+  }
+}

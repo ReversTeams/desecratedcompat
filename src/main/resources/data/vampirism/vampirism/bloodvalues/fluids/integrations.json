@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "desecratedcore:blood",
+      "value": 1
+    },
+    {
+      "id": "neepmeat:blood",
+      "value": 0.8
+    },
+    {
+      "id": "bloodyhell:blood",
+      "value": 0.8
+    },
+    {
+      "id": "sons_of_sins:blood",
+      "value": 0.8
+    }
+  ]
+}

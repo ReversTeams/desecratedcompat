@@ -1,0 +1,12 @@
+{
+    "type": "lychee:lightning_channeling",
+    "item_in": {
+        "item": "bloodyhell:forbidden_bookshelf_block"
+    },
+    "post": [
+        {
+            "type": "drop_item",
+            "item": "desecratedcore:forbidden_knowledge"
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+{
+  "loadouts": {
+    "werndl": {
+      "gun_id": "antiques:werndl",
+      "ammo_count": 120,
+      "fire_mode": "SEMI",
+      "muzzle_id": "antiques:bayonet_1867"
+    },
+
+    "kar71": {
+      "gun_id": "antiques:kar71",
+      "ammo_count": 120,
+      "fire_mode": "SEMI"
+    },
+
+    "gew71": {
+      "gun_id": "antiques:gew71",
+      "ammo_count": 120,
+      "fire_mode": "SEMI"
+    },
+
+    "reichs79": {
+      "gun_id": "antiques:reichs79",
+      "ammo_count": 90,
+      "fire_mode": "SEMI"
+    }
+  }
+}

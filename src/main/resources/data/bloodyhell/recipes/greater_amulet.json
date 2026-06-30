@@ -1,0 +1,20 @@
+{
+  "type": "bloodyhell:blood_altar",
+  "ingredients": [
+    {
+      "item": "bloodyhell:great_ancient_gem"
+    },
+    {
+      "item": "bloodyhell:blasphemite"
+    },
+    {
+      "item": "bloodyhell:filled_rhnull_blood_flask"
+    },
+    {
+      "item": "bloodyhell:filled_rhnull_blood_flask"
+    }
+  ],
+  "output": {
+    "item": "bloodyhell:great_amulet_of_ancestral_blood"
+  }
+}

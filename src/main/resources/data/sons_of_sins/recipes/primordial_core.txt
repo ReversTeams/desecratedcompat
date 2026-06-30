@@ -1,0 +1,12 @@
+{
+  "type": "sons_of_sins:etheric_blood_imbibation",
+  "ingredients": [
+    {
+      "item": "desecratedcore:tempered_heart"
+    }
+  ],
+  "output": {
+    "item": "biomancy:primordial_core",
+    "count": 1
+  }
+}

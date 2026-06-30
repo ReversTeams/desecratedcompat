@@ -1,0 +1,36 @@
+{
+  "loadouts": {
+    "vtterli69_71": {
+      "gun_id": "antiques:vtterli69_71",
+      "ammo_count": 120,
+      "fire_mode": "SEMI",
+      "muzzle_id": "antiques:bayonet_1867"
+    },
+
+    "vtterli_kar71": {
+      "gun_id": "antiques:vtterli_kar71",
+      "ammo_count": 120,
+      "fire_mode": "SEMI"
+    },
+
+    "swiss78": {
+      "gun_id": "antiques:swiss78",
+      "ammo_count": 120,
+      "fire_mode": "SEMI"
+    },
+
+    "gras74": {
+      "gun_id": "antiques:gras74",
+      "ammo_count": 90,
+      "fire_mode": "SEMI",
+      "muzzle_id": "antiques:bayonet_epee"
+    },
+
+    "gras_arti": {
+      "gun_id": "antiques:gras_arti",
+      "ammo_count": 90,
+      "fire_mode": "SEMI",
+      "muzzle_id": "antiques:bayonet_epee"
+    }
+  }
+}

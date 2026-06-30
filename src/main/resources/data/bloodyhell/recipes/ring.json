@@ -1,0 +1,20 @@
+{
+  "type": "bloodyhell:blood_altar",
+  "ingredients": [
+    {
+      "item": "bloodyhell:ancient_gem"
+    },
+    {
+      "item": "minecraft:gold_ingot"
+    },
+    {
+      "item": "minecraft:gold_ingot"
+    },
+    {
+      "item": "minecraft:gold_ingot"
+    }
+  ],
+  "output": {
+    "item": "bloodyhell:crimson_ward_ring"
+  }
+}

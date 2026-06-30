@@ -1,0 +1,9 @@
+{
+  "type": "hexalia:ritual_brazier",
+  "input": {
+    "item": "hexalia:silk_fiber"
+  },
+  "output": {
+    "item": "minecraft:string"
+  }
+}

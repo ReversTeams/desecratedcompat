@@ -1,0 +1,1 @@
+{"type":"biomancy:bio_forging","bio_forge_tab":"biomancy:machines","ingredients":[{"item":"biomancy:living_flesh"},{"count":8,"item":"biomancy:flesh_bits"}, {"count":2,"item":"biomancy:mob_fang"}, {"count":1,"item":"biomancy:mob_gland"}],"nutrientsCost":30,"result":{"item":"biomancy:decomposer"}}

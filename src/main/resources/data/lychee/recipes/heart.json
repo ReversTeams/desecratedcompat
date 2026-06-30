@@ -1,0 +1,20 @@
+{
+    "type": "lychee:item_inside",
+    "item_in": {
+        "tag": "forge:heart"
+    },
+    "block_in": {
+        "blocks": [
+            "water"
+        ],
+        "state": {
+            "level": 0
+        }
+    },
+    "post": [
+        {
+            "type": "drop_item",
+            "item": "reliquary:zombie_heart"
+        }
+    ]
+}

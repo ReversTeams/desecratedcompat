@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "desecratedcore:raw_meat_block",
+      "value": 1000
+    }
+  ]
+}
+
+

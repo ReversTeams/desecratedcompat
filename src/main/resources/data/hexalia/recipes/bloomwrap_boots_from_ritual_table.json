@@ -1,0 +1,23 @@
+{
+  "type": "hexalia:ritual_table",
+  "ingredients": [
+    {
+      "item": "hexalia:moonweave_footwraps"
+    },
+    {
+      "item": "minecraft:dandelion"
+    },
+    {
+      "item": "desecratedcore:all_node"
+    },
+    {
+      "item": "hexalia:silk_fiber"
+    },
+    {
+      "item": "minecraft:sugar"
+    }
+  ],
+  "output": {
+    "item": "hexalia:bloomwrap_boots"
+  }
+}

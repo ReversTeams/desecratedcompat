@@ -1,0 +1,20 @@
+{
+    "type": "lychee:item_inside",
+    "item_in": {
+        "item": "butchery:brain"
+    },
+    "block_in": {
+        "blocks": [
+            "water"
+        ],
+        "state": {
+            "level": 0
+        }
+    },
+    "post": [
+        {
+            "type": "drop_item",
+            "item": "neepmeat:brain_rough"
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "type": "lychee:item_inside",
+    "item_in": {
+        "item": "minecraft:glass_bottle"
+    },
+    "block_in": {
+        "blocks": [
+            "desecratedcore:blood"
+        ],
+        "state": {
+            "level": 0
+        }
+    },
+    "post": [
+        {
+            "type": "drop_item",
+            "item": "vampirism:blood_bottle",
+            "nbt": "{Damage:8}"
+        },
+        {
+            "type": "place",
+            "block": "minecraft:air"
+        }
+    ]
+}

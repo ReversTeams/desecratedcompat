@@ -1,0 +1,23 @@
+{
+  "type": "hexalia:ritual_table",
+  "ingredients": [
+    {
+      "item": "hexalia:moonweave_mantle"
+    },
+    {
+      "item": "minecraft:moss_block"
+    },
+    {
+      "item": "desecratedcore:all_node"
+    },
+    {
+      "item": "hexalia:silk_fiber"
+    },
+    {
+      "item": "minecraft:iron_nugget"
+    }
+  ],
+  "output": {
+    "item": "hexalia:bloomwrap_robes"
+  }
+}

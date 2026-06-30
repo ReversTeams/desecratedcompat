@@ -1,0 +1,24 @@
+{
+  "type": "neepmeat:manufacture",
+  "base": {
+    "id": "neepmeat:open_eye"
+  },
+  "steps":[
+    {
+      "id": "neepmeat:combine",
+      "resource": "neepmeat:control_unit"
+    },
+    {
+      "id": "neepmeat:combine",
+      "resource": "neepmeat:internal_components"
+    },
+    {
+      "id": "neepmeat:inject",
+      "resource": "desecratedcore:blood"
+    }
+  ],
+  "result": {
+    "resource": "neepmeat:pineal_eye",
+    "amount": 1
+  }
+}

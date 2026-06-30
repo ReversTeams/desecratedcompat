@@ -1,0 +1,17 @@
+{
+    "type": "lychee:block_interacting",
+    "comment": "Shift right click a plank block with an Athame to carve a ritual brazier.",
+    "ghost": true,
+    "item_in": [
+        {
+            "item": "hexalia:athame"
+        }
+    ],
+    "block_in": {
+        "tag": "minecraft:planks"
+    },
+    "post": {
+        "type": "drop_item",
+        "item": "hexalia:ritual_brazier"
+    }
+}

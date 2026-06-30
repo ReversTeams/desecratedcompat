@@ -1,0 +1,20 @@
+{
+  "type": "bloodyhell:blood_altar",
+  "ingredients": [
+    {
+      "item": "bloodyhell:ancient_gem"
+    },
+    {
+      "item": "bloodyhell:rhnull"
+    },
+    {
+      "item": "bloodyhell:filled_blood_flask"
+    },
+    {
+      "item": "bloodyhell:filled_blood_flask"
+    }
+  ],
+  "output": {
+    "item": "bloodyhell:amulet_of_ancestral_blood"
+  }
+}

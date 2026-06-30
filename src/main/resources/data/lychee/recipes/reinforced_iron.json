@@ -1,0 +1,27 @@
+{
+    "type": "lychee:block_clicking",
+    "comment": "Left click an iron block with the amethyst tuning wand to create an amethyst reinforced iron ingot.",
+    "item_in": [
+        {
+            "item": "desecratedcore:amethyst_tuning_wand"
+        },
+        {
+            "item": "minecraft:amethyst_shard"
+        }
+    ],
+    "block_in": "minecraft:iron_block",
+    "post": [
+        {
+            "type": "drop_item",
+            "item": "desecratedcore:amethyst_reinforced_iron_ingot"
+        },
+        {
+            "type": "damage_item",
+            "target": "/item_in/0"
+        },
+        {
+            "type": "place",
+            "block": "minecraft:air"
+        }
+    ]
+}

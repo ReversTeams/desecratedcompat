@@ -1,0 +1,20 @@
+{
+  "type": "neepmeat:mixing",
+  "item": {
+    "tag": "neepmeat:animal_feed_items",
+    "amount": 1
+  },
+  "fluid2": {
+    "resource": "minecraft:empty",
+    "amount": 0
+  },
+  "fluid1":{
+    "resource": "desecratedcore:blood",
+    "amount": 6750
+  },
+  "output":{
+    "resource": "neepmeat:animal_feed",
+    "amount": 27000
+  },
+  "processtime": 30
+}

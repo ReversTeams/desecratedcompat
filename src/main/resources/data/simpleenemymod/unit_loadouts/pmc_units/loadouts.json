@@ -1,0 +1,23 @@
+{
+  "loadouts": {
+    "beaum71": {
+      "gun_id": "antiques:beaum71",
+      "ammo_count": 120,
+      "fire_mode": "SEMI"
+    },
+
+    "gras74": {
+      "gun_id": "antiques:gras74",
+      "ammo_count": 120,
+      "fire_mode": "SEMI",
+      "muzzle_id": "antiques:bayonet_epee"
+    },
+
+    "gras_arti": {
+      "gun_id": "antiques:gras_arti",
+      "ammo_count": 120,
+      "fire_mode": "SEMI",
+      "muzzle_id": "antiques:bayonet_epee"
+    }
+  }
+}

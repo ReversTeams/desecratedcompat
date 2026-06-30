@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "spectrum:pedestal_basic_amethyst"
+    },
+    "title": {
+      "translate": "advancements.spectrum.spectrum.title"
+    },
+    "description": {
+      "translate": "advancements.spectrum.spectrum.description"
+    },
+    "background": "spectrum:textures/gui/advancement_background.png"
+  },
+  "criteria": {
+    "found_preservation_ruin": {
+      "trigger": "revelationary:advancement_gotten",
+      "conditions": {
+        "advancement_identifier": "spectrum:find_preservation_ruins"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "found_preservation_ruin"
+    ]
+  ]
+}

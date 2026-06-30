@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "sons_of_sins:blocks/soul_steel_door",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "sons_of_sins:soul_steel_door",
+          "conditions": [
+            {
+              "block": "sons_of_sins:soul_steel_door",
+              "condition": "minecraft:block_state_property",
+              "properties": {
+                "half": "lower"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

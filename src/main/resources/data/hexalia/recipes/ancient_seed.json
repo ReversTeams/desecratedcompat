@@ -1,0 +1,23 @@
+{
+  "type": "hexalia:ritual_table",
+  "ingredients": [
+    {
+      "item": "hexalia:sunfire_tomato_seeds"
+    },
+    {
+      "item": "hexalia:mandrake_seeds"
+    },
+    {
+      "item": "hexalia:earth_node"
+    },
+    {
+      "item": "minecraft:melon_seeds"
+    },
+    {
+      "item": "hexalia:rabbage_seeds"
+    }
+  ],
+  "output": {
+    "item": "hexalia:ancient_seed"
+  }
+}
