@@ -3,7 +3,7 @@ plugins {
     id "idea"
     id "maven-publish"
     id "net.minecraftforge.gradle" version "[6.0,6.2)"
-    //id "org.spongepowered.mixin" version "0.7.+"
+    id "org.spongepowered.mixin" version "0.7.+"
 }
 
 base {
@@ -78,11 +78,13 @@ repositories {
 dependencies {
     minecraft "net.minecraftforge:forge:${minecraft_version}-${forge_version}"
 
-//    annotationProcessor "org.spongepowered:mixin:0.8.5:processor" // Mixins
+    annotationProcessor "org.spongepowered:mixin:0.8.5:processor" // Mixins
 
     compileOnly fg.deobf("mezz.jei:jei-${minecraft_version}-common-api:15.20.0.106")
     compileOnly fg.deobf("mezz.jei:jei-${minecraft_version}-forge-api:15.20.0.106")
     runtimeOnly fg.deobf("mezz.jei:jei-${minecraft_version}-forge:15.20.0.106")
+
+    compileOnly files("libs/thedulling-encore-1.0.2-0.8.9-forge-1.20.1.jar") 
 }
 
 processResources {
@@ -100,10 +102,10 @@ processResources {
     }
 }
 
-// mixin {
-//     add sourceSets.main, "${mod_id}.refmap.json"
-//     config "${mod_id}.mixins.json"
-// }
+mixin {
+    add sourceSets.main, "${mod_id}.refmap.json"
+    config "${mod_id}.mixins.json"
+}
 
 // Example for how to get properties into the manifest for reading at runtime.
 tasks.named("jar", Jar).configure {

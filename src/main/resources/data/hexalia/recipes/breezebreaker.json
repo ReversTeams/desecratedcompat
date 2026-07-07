@@ -1,0 +1,23 @@
+{
+  "type": "hexalia:ritual_table",
+  "ingredients": [
+    {
+      "item": "celestisynth:zephyr_deposit"
+    },
+    {
+      "item": "hexalia:air_node"
+    },
+    {
+      "item": "hexalia:windsong"
+    },
+    {
+      "item": "celestisynth:starstruck_scrap"
+    },
+    {
+      "item": "hexalia:ancient_seed"
+    }
+  ],
+  "output": {
+    "item": "hexalia:astrylis"
+  }
+}

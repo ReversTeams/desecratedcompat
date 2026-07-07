@@ -29,8 +29,232 @@ description='''${mod_description}'''
     side="BOTH"
 
 [[dependencies.${mod_id}]]
-    modId="neepmeat"
+    modId="desecratedcore"
     mandatory=true
     versionRange="[0.0.0,)"
     ordering="AFTER"
     side="BOTH"
+
+[[dependencies.${mod_id}]]
+    modId="vampirism"
+    mandatory=false
+    versionRange="[0.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.${mod_id}]]
+    modId="hexalia"
+    mandatory=false
+    versionRange="[0.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.${mod_id}]]
+    modId="ati_structures"
+    mandatory=false
+    versionRange="[0.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.${mod_id}]]
+    modId="biomancy"
+    mandatory=false
+    versionRange="[0.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.${mod_id}]]
+    modId="bloodyhell"
+    mandatory=false
+    versionRange="[0.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.${mod_id}]]
+    modId="butchery"
+    mandatory=false
+    versionRange="[0.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.${mod_id}]]
+    modId="civil"
+    mandatory=false
+    versionRange="[0.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.${mod_id}]]
+    modId="create"
+    mandatory=false
+    versionRange="[0.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.${mod_id}]]
+    modId="curios"
+    mandatory=false
+    versionRange="[0.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.${mod_id}]]
+    modId="fracture"
+    mandatory=false
+    versionRange="[0.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.${mod_id}]]
+    modId="integrated_stronghold"
+    mandatory=false
+    versionRange="[0.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.${mod_id}]]
+    modId="lootr"
+    mandatory=false
+    versionRange="[0.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.${mod_id}]]
+    modId="lychee"
+    mandatory=false
+    versionRange="[0.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.${mod_id}]]
+    modId="neepmeat"
+    mandatory=false
+    versionRange="[0.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.${mod_id}]]
+    modId="meatweapons"
+    mandatory=false
+    versionRange="[0.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.${mod_id}]]
+    modId="oef"
+    mandatory=false
+    versionRange="[0.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.${mod_id}]]
+    modId="oei"
+    mandatory=false
+    versionRange="[0.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.${mod_id}]]
+    modId="simpleenemymod"
+    mandatory=false
+    versionRange="[0.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.${mod_id}]]
+    modId="sons_of_sins"
+    mandatory=false
+    versionRange="[0.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.${mod_id}]]
+    modId="spectrum"
+    mandatory=false
+    versionRange="[0.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.${mod_id}]]
+    modId="tetra"
+    mandatory=false
+    versionRange="[0.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.${mod_id}]]
+    modId="bloodbits"
+    mandatory=false
+    versionRange="[0.0.0,)"
+    ordering="AFTER"
+    side="CLIENT"
+
+[[dependencies.${mod_id}]]
+    modId="certain_questing_additions"
+    mandatory=false
+    versionRange="[0.0.0,)"
+    ordering="AFTER"
+    side="CLIENT"
+
+[[dependencies.${mod_id}]]
+    modId="class_enhancement"
+    mandatory=false
+    versionRange="[0.0.0,)"
+    ordering="AFTER"
+    side="CLIENT"
+
+[[dependencies.${mod_id}]]
+    modId="enemyexpansion"
+    mandatory=false
+    versionRange="[0.0.0,)"
+    ordering="AFTER"
+    side="CLIENT"
+
+[[dependencies.${mod_id}]]
+    modId="forge"
+    mandatory=false
+    versionRange="[0.0.0,)"
+    ordering="AFTER"
+    side="CLIENT"
+
+[[dependencies.${mod_id}]]
+    modId="ftblibrary"
+    mandatory=false
+    versionRange="[0.0.0,)"
+    ordering="AFTER"
+    side="CLIENT"
+
+[[dependencies.${mod_id}]]
+    modId="ftbquests"
+    mandatory=false
+    versionRange="[0.0.0,)"
+    ordering="AFTER"
+    side="CLIENT"
+
+[[dependencies.${mod_id}]]
+    modId="roadweaver"
+    mandatory=false
+    versionRange="[0.0.0,)"
+    ordering="AFTER"
+    side="CLIENT"
+
+[[dependencies.${mod_id}]]
+    modId="sol_valheim_reforged"
+    mandatory=false
+    versionRange="[0.0.0,)"
+    ordering="AFTER"
+    side="CLIENT"
+
+[[dependencies.${mod_id}]]
+    modId="tips"
+    mandatory=false
+    versionRange="[0.0.0,)"
+    ordering="AFTER"
+    side="CLIENT"
+
+[[dependencies.${mod_id}]]
+    modId="thedulling"
+    mandatory=false
+    versionRange="[0.0.0,)"
+    ordering="AFTER"
+    side="CLIENT"

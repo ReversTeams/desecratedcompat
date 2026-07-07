@@ -1,0 +1,23 @@
+{
+  "type": "hexalia:ritual_table",
+  "ingredients": [
+    {
+      "item": "minecraft:ochre_froglight"
+    },
+    {
+      "tag": "minecraft:pearlescent_froglight"
+    },
+    {
+      "item": "hexalia:kelpweave_blade"
+    },
+    {
+      "item": "celestisynth:starstruck_scrap"
+    },
+    {
+      "item": "minecraft:verdant_froglight"
+    }
+  ],
+  "output": {
+    "item": "celestisynth:aquaflora"
+  }
+}

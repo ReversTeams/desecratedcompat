@@ -1,0 +1,23 @@
+{
+  "type": "hexalia:ritual_table",
+  "ingredients": [
+    {
+      "item": "hexalia:celestial_crystal"
+    },
+    {
+      "item": "celestisynth:lunar_scrap"
+    },
+    {
+      "item": "hexalia:air_node"
+    },
+    {
+      "item": "hexalia:celestial_bloom"
+    },
+    {
+      "item": "hexalia:celestial_crystal"
+    }
+  ],
+  "output": {
+    "item": "celestisynth:starstruck_scrap"
+  }
+}
