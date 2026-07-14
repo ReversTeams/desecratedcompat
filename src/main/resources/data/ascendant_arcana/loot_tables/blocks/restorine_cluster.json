@@ -60,6 +60,16 @@
                 }
               ],
               "name": "ascendant_arcana:restorine"
+            },
+            {
+              "type": "minecraft:item",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.3
+                }
+              ],
+              "name": "desecratedcore:pure_restorine"
             }
           ]
         }

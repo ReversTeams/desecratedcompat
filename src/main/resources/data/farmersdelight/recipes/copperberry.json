@@ -1,0 +1,21 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    { "item": "oreberriesreplanted:copper_oreberry" }
+  ],
+  "tool": {
+    "tag": "forge:tools/knives"
+  },
+  "result": [
+    {
+      "item": "concatenatedadditionsmachines:crushed_copper",
+      "count": 1,
+      "chance": 0.8
+    },
+    {
+      "item": "concatenatedadditionsmachines:crushed_copper",
+      "count": 1,
+      "chance": 0.25
+    }
+  ]
+}

@@ -1,14 +1,1 @@
-{
-  "type": "ascendant_arcana:relic_crafting_recipe",
-  "category": "misc",
-  "ingredients": [
-    {
-      "item": "ascendant_arcana:relic"
-    },
-    {
-      "item": "minecraft:diamond"
-    }
-  ],
-  "relic": 2,
-  "strength": 3
-}
+{}
