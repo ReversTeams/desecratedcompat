@@ -50,12 +50,12 @@ public class BloodBottleEventHandler {
                                         fluidId.equals(vampirismBlood) || 
                                         fluid.is(forgeBloodTag);
                 
-                if (isTargetBlood && tankFluid.getAmount() >= 1000) {
+                if (isTargetBlood && tankFluid.getAmount() >= 900) {
                     
-                    FluidStack toDrain = new FluidStack(fluid, 1000);
+                    FluidStack toDrain = new FluidStack(fluid, 900);
                     FluidStack drained = handler.drain(toDrain, IFluidHandler.FluidAction.EXECUTE);
                     
-                    if (drained.getAmount() >= 1000) {
+                    if (drained.getAmount() >= 900) {
                         be.setChanged(); 
                         
                         heldItem.shrink(1);
@@ -64,7 +64,7 @@ public class BloodBottleEventHandler {
                                 new ResourceLocation("vampirism", "blood_bottle")
                         ));
                         
-                        bloodBottle.setDamageValue(8); 
+                        bloodBottle.setDamageValue(9); 
                         
                         player.getInventory().add(bloodBottle);
                         
