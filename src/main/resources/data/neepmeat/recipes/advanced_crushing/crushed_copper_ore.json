@@ -1,0 +1,19 @@
+{
+  "type": "neepmeat:grinding",
+  "input": {
+    "resource": "minecraft:raw_copper",
+    "amount": 1
+  },
+  "output": {
+    "resource": "concatenatedadditionsmachines:crushed_copper",
+    "min": 4,
+    "max": 4
+  },
+  "extra": {
+    "resource": "concatenatedadditionsmachines:crushed_copper",
+    "amount": 1,
+    "chance": 0.5
+  },
+  "experience": 0.7,
+  "processtime": 10
+}

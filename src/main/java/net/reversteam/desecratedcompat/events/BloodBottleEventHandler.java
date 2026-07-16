@@ -6,6 +6,7 @@ import net.minecraft.world.InteractionHand;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
+import net.minecraft.world.level.block.Block; // Added import
 import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.material.Fluid;
 import net.minecraftforge.common.capabilities.ForgeCapabilities;
@@ -23,6 +24,13 @@ public class BloodBottleEventHandler {
     public static void onRightClickBlock(PlayerInteractEvent.RightClickBlock event) {
         if (event.getLevel().isClientSide()) return;
         if (event.getFace() == null) return;
+
+        // Prevent triggering on Vampirism's blood container
+        Block clickedBlock = event.getLevel().getBlockState(event.getPos()).getBlock();
+        ResourceLocation blockId = ForgeRegistries.BLOCKS.getKey(clickedBlock);
+        if (blockId != null && blockId.equals(new ResourceLocation("vampirism", "blood_container"))) {
+            return;
+        }
 
         Player player = event.getEntity();
         InteractionHand hand = event.getHand();

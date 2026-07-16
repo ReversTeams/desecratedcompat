@@ -1,0 +1,14 @@
+{
+  "type": "neepmeat:grinding",
+  "input": {
+    "resource": "concatenatedadditionsmachines:zinc_ingot",
+    "amount": 1
+  },
+  "output": {
+    "resource": "concatenatedadditionsmachines:crushed_iron",
+    "min": 2,
+    "max": 2
+  },
+  "experience": 0.7,
+  "processtime": 10
+}

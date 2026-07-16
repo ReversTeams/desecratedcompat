@@ -1,0 +1,14 @@
+{
+  "type": "neepmeat:grinding",
+  "input": {
+    "resource": "minecraft:gold_ingot",
+    "amount": 1
+  },
+  "output": {
+    "resource": "concatenatedadditionsmachines:crushed_gold",
+    "min": 2,
+    "max": 2
+  },
+  "experience": 0.7,
+  "processtime": 10
+}
