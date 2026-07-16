@@ -5,7 +5,7 @@
     "amount": 1
   },
   "output": {
-    "resource": "concatenatedadditionsmachines:crushed_iron",
+    "resource": "concatenatedadditionsmachines:crushed_zinc",
     "min": 2,
     "max": 2
   },
