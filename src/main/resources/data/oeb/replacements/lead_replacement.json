@@ -1,0 +1,8 @@
+[
+  {
+    "matchBlocks": [
+      "oreberriesreplanted:lead_oreberry_bush"
+    ],
+    "resultBlocks": "oreberriesreplanted:gold_oreberry_bush"
+  }
+]

@@ -1,0 +1,9 @@
+[
+  {
+    "matchBlocks": [
+      "oreberriesreplanted:tin_oreberry_bush",
+      "oreberriesreplanted:aluminum_oreberry_bush"
+    ],
+    "resultBlocks": "oreberriesreplanted:copper_oreberry_bush"
+  }
+]
