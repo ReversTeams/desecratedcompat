@@ -1,0 +1,42 @@
+{
+  "type": "biomancy:decomposing",
+  "ingredient": {
+    "item": "fracture:boreas_key"
+  },
+  "nutrientsCost": 10,
+  "processingTime": 100,
+  "results": [
+    {
+      "countRange": {
+        "type": "uniform",
+        "max": 1,
+        "min": 0
+      },
+      "item": "fracture:crumbling_void_gem"
+    },
+    {
+      "countRange": {
+        "type": "uniform",
+        "max": 8,
+        "min": 1
+      },
+      "item": "minecraft:obsidian"
+    },
+    {
+      "countRange": {
+        "type": "uniform",
+        "max": 4,
+        "min": 0
+      },
+      "item": "minecraft:crying_obsidian"
+    },
+    {
+      "countRange": {
+        "type": "uniform",
+        "max": 18,
+        "min": 2
+      },
+      "item": "fracture:cracked_darkstone_bricks"
+    }
+  ]
+}

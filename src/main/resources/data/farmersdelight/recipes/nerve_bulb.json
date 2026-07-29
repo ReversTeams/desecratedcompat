@@ -1,0 +1,15 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    { "item": "incision:eyebulb" }
+  ],
+  "tool": {
+    "item": "concatenatedadditionscore:cutting_tool"
+  },
+  "result": [
+    {
+      "item": "incision:conductor_nerve",
+      "count": 1
+    }
+  ]
+}
