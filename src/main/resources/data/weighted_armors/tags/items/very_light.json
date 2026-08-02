@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "reverseeon:arcanist_helmet",
+    "reverseeon:arcanist_chestplate",
+    "reverseeon:arcanist_leggings",
+    "reverseeon:arcanist_boots",
+    "thedulling:spectral_helmet",
+    "thedulling:spectral_chestplate",
+    "thedulling:spectral_leggings",
+    "thedulling:spectral_boots",
+    "hexalia:moonweave_hood",
+    "hexalia:moonweave_mantle",
+    "hexalia:moonweave_bindings",
+    "hexalia:moonweave_footwraps",
+    "netherman:azazel_chestplate",
+    "netherman:azazel_helmet",
+    "netherman:azazel_leggings",
+    "netherman:azazel_boots"
+  ]
+}

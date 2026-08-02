@@ -1,0 +1,25 @@
+{
+  "replace": false,
+  "values": [
+    "spectrum:bedrock_helmet",
+    "spectrum:bedrock_chestplate",
+    "spectrum:bedrock_leggings",
+    "spectrum:bedrock_boots",
+    "macabre:blood_clot_armor_helmet",
+    "macabre:blood_clot_armor_chestplate",
+    "macabre:blood_clot_armor_leggings",
+    "thedulling:judge_boots",
+    "macabre:blood_clot_armor_boots",
+    "thedulling:dullplate_armor_helmet",
+    "thedulling:dullplate_armor_chestplate",
+    "thedulling:dullplate_armor_leggings",
+    "thedulling:dullplate_armor_boots",
+    "thedulling:savant_armor_helmet",
+    "thedulling:praetor_chestplate",
+    "thedulling:preaching_leggings",
+    "macabre:ferrum_armor_helmet",
+    "macabre:ferrum_armor_chestplate",
+    "macabre:ferrum_armor_leggings",
+    "macabre:ferrum_armor_boots"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    { "item": "minecraft:ender_pearl" }
+  ],
+  "tool": {
+    "item": "incision:burial_knife"
+  },
+  "result": [
+    {
+      "item": "otherverse:quicksilver",
+      "count": 1
+    }
+  ]
+}
