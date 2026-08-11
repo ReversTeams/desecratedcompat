@@ -1,0 +1,24 @@
+{
+  "type": "neepmeat:manufacture",
+  "base": {
+    "id": "neepmeat:machine_block"
+  },
+  "steps":[
+    {
+      "id": "neepmeat:combine",
+      "resource": "neepmeat:control_unit"
+    },
+    {
+      "id": "neepmeat:combine",
+      "resource": "neepmeat:projector"
+    },
+    {
+      "id": "neepmeat:inject",
+      "resource": "neepmeat:work_fluid"
+    }
+  ],
+  "result": {
+    "resource": "neepmeat:living_machine_controller",
+    "amount": 1
+  }
+}

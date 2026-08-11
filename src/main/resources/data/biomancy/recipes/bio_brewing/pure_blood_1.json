@@ -1,0 +1,25 @@
+{
+  "type": "biomancy:bio_brewing",
+  "ingredients": [
+    {
+      "item": "vampirism:pure_blood_0"
+    },
+    {
+      "item": "sons_of_sins:bottle_of_blood"
+    },
+    {
+      "item": "sons_of_sins:bottle_of_blood"
+    },
+    {
+      "item": "biomancy:ageing_serum"
+    }
+  ],
+  "nutrientsCost": 15,
+  "processingTime": 80,
+  "reactant": {
+    "item": "minecraft:glass_bottle"
+  },
+  "result": {
+    "item": "vampirism:pure_blood_1"
+  }
+}

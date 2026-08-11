@@ -1,0 +1,19 @@
+{
+  "type": "neepmeat:grinding",
+  "input": {
+    "resource": "neepmeat:asbestos",
+    "amount": 1
+  },
+  "output": {
+    "resource": "neepmeat:asbestos_dust",
+    "min": 1,
+    "max": 1
+  },
+  "extra": {
+    "resource": "neepmeat:asbestos_dust",
+    "amount": 1,
+    "chance": 0.25
+  },
+  "experience": 0.7,
+  "processtime": 10
+}

@@ -1,0 +1,25 @@
+{
+    "type": "biomancy:bio_forging",
+    "bio_forge_tab": "biomancy:components",
+    "ingredients": [
+        {
+            "tag": "desecrated:higher_pure_blood"
+        },
+        {
+            "count": 2,
+            "item": "minecraft:iron_ingot"
+        },
+        {
+            "count": 4,
+            "item": "biomancy:mineral_fragment"
+        },
+        {
+            "count": 4,
+            "item": "neepmeat:meat_steel_ingot"
+        }
+    ],
+    "nutrientsCost": 90,
+    "result": {
+        "item": "vampirism:blood_infused_iron_ingot"
+    }
+}

@@ -1,6 +1,7 @@
 [
   {
     "matchItems": [
+      "bloodyhell:blood_bucket",
       "butchery:blood_bucket"
     ],
     "resultItems": "desecratedcore:blood_bucket"

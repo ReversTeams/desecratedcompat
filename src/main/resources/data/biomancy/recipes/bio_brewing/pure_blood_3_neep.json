@@ -1,0 +1,25 @@
+{
+  "type": "biomancy:bio_brewing",
+  "ingredients": [
+    {
+      "item": "vampirism:pure_blood_2"
+    },
+    {
+      "item": "neepmeat:blood_bubble"
+    },
+    {
+      "item": "neepmeat:blood_bubble"
+    },
+    {
+      "item": "biomancy:healing_additive"
+    }
+  ],
+  "nutrientsCost": 25,
+  "processingTime": 80,
+  "reactant": {
+    "item": "minecraft:glass_bottle"
+  },
+  "result": {
+    "item": "vampirism:pure_blood_3"
+  }
+}

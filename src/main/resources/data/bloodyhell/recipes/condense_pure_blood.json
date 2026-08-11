@@ -1,0 +1,13 @@
+{
+  "type": "bloodyhell:condensing",
+  "fluid_input": {
+    "amount": 1000,
+    "fluid": "bloodyhell:blood_source"
+  },
+  "item_input": {
+    "item": "vampirism:pure_blood_3"
+  },
+  "output": {
+    "item": "vampirism:pure_blood_4"
+  }
+}
