@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "DXX",
+    " #X",
+    "#  "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "X": {
+      "item": "minecraft:cobblestone"
+    },
+    "D": {
+      "item": "desecratedcore:iron_key_item"
+    }
+  },
+  "result": {
+    "item": "modestmining:stone_mace"
+  }
+}

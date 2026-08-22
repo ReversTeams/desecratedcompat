@@ -91,6 +91,26 @@
     "macabre:morphegor_armor_helmet",
     "macabre:morphegor_armor_chestplate",
     "macabre:morphegor_armor_leggings",
-    "macabre:morphegor_armor_boots"
+    "macabre:morphegor_armor_boots",
+    "goety:dark_helmet",
+    "goety:dark_chestplate",
+    "goety:dark_leggings",
+    "goety:dark_boots",
+    "blood_arsenal_reawakened:helm_of_bloodsight",
+    "blood_arsenal_reawakened:breastplate_of_fury",
+    "blood_arsenal_reawakened:hunters_greaves",
+    "goety:cursed_paladin_boots",
+    "blood_arsenal_reawakened:boots_of_the_frostblood",
+    "goetyawaken:champion_helmet",
+    "goetyawaken:champion_chestplate",
+    "goetyawaken:champion_leggings",
+    "goety:cursed_paladin_leggings",
+    "goety:cursed_paladin_helmet",
+    "goety:cursed_paladin_chestplate",
+    "goety:cursed_knight_helmet",
+    "goety:cursed_knight_chestplate",
+    "goety:cursed_knight_leggings",
+    "goety:cursed_knight_boots",
+    "goetyawaken:champion_boots"
   ]
 }

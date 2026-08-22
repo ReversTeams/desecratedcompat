@@ -1,0 +1,24 @@
+{
+    "type": "lychee:item_inside",
+    "item_in": {
+        "item": "minecraft:leather"
+    },
+    "block_in": {
+        "blocks": [
+            "bloodmagic:life_essence_block"
+        ],
+        "state": {
+            "level": 0
+        }
+    },
+    "post": [
+        {
+            "type": "drop_item",
+            "item": "concatenatedadditionstools:blood_soaked_fabric"
+        },
+        {
+            "type": "place",
+            "block": "minecraft:air"
+        }
+    ]
+}

@@ -3,7 +3,6 @@
     "matchFluid": [
       "neepmeat:blood",
       "fracture:blood_block",
-      "bloodyhell:blood_source",
       "butchery:blood"
     ],
     "resultFluid": "desecratedcore:blood"

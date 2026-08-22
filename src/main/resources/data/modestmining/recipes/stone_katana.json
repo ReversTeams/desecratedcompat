@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "DXX",
+    "X# ",
+    "#  "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "X": {
+      "tag": "minecraft:stone_tool_materials"
+    },
+    "D": {
+      "item": "desecratedcore:iron_key_item"
+    }
+  },
+  "result": {
+    "item": "modestmining:stone_katana"
+  }
+}

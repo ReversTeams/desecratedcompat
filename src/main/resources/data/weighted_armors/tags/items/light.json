@@ -81,6 +81,24 @@
     "vampirism:vampire_cloak_red_black",
     "vampirism:vampire_cloak_white_black",
     "vampirism:vampire_clothing_legs",
-    "vampirism:vampire_clothing_boots"
+    "vampirism:vampire_clothing_boots",
+    "modestmining:prismarite_helmet",
+    "modestmining:prismarite_chestplate",
+    "modestmining:prismarite_leggings",
+    "modestmining:prismarite_boots",
+    "enemyexpansion:meathead_helmet",
+    "enemyexpansion:horsehead_helmet",
+    "enemyexpansion:headbiter_helmet",
+    "enemyexpansion:silverhead_helmet",
+    "goetyawaken:mushroom_hat",
+    "clockwork:clockwork_wings",
+    "hexalia:earplugs",
+    "hexalia:ghostveil",
+    "hexalia:bogshade_boots",
+    "otherverse:ruins_helmet",
+    "otherverse:ruins_chestplate",
+    "otherverse:ruins_leggings",
+    "otherverse:ruins_boots",
+    "goety:malefic_helm"
   ]
 }

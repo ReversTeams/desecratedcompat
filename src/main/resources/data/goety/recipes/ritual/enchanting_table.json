@@ -1,0 +1,36 @@
+{
+  "type": "goety:ritual",
+  "ritual_type": "goety:craft",
+  "activation_item": {
+    "item": "minecraft:book"
+  },
+  "craftType": "forge",
+  "soulCost": 25,
+  "duration": 80,
+  "ingredients": [
+    {
+      "item": "goety:cursed_infuser"
+    },
+    {
+      "item": "goety:soul_emerald"
+    },
+    {
+      "item": "goety:soul_emerald"
+    },
+    {
+      "item": "minecraft:obsidian"
+    },
+    {
+      "item": "minecraft:obsidian"
+    },
+    {
+      "item": "minecraft:obsidian"
+    },
+    {
+      "item": "minecraft:obsidian"
+    }
+  ],
+  "result": {
+    "item": "minecraft:enchanting_table"
+  }
+}

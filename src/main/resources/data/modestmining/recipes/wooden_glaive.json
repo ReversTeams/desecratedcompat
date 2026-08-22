@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XX#",
+    "X#X",
+    "#D "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "X": {
+      "tag": "minecraft:planks"
+    },
+    "D": {
+      "item": "desecratedcore:iron_key_item"
+    }
+  },
+  "result": {
+    "item": "modestmining:wooden_glaive"
+  }
+}

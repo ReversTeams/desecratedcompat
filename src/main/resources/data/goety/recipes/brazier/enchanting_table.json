@@ -1,0 +1,30 @@
+{
+  "type": "goety:brazier",
+  "soulCost": 2000,
+  "ingredients": [
+    {
+      "item": "minecraft:book"
+    },
+    {
+      "item": "goety:soul_emerald"
+    },
+    {
+      "item": "goety:soul_emerald"
+    },
+    {
+      "item": "minecraft:obsidian"
+    },
+    {
+      "item": "minecraft:obsidian"
+    },
+    {
+      "item": "minecraft:obsidian"
+    },
+    {
+      "item": "minecraft:obsidian"
+    }
+  ],
+  "result": {
+    "item": "minecraft:enchanting_table"
+  }
+}
