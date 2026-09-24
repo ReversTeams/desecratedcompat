@@ -3,7 +3,7 @@
     "bio_forge_tab": "biomancy:components",
     "ingredients": [
         {
-            "tag": "vampirism:pure_blood"
+            "tag": "desecrated:higher_pure_blood"
         },
         {
             "count": 2,
