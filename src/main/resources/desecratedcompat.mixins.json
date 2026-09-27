@@ -4,9 +4,11 @@
   "package": "net.reversteam.desecratedcompat.mixin",
   "refmap": "mixinmodtemplate.refmap.json",
   "mixins": [
-    "PerfProbeMixin"
+    "StormDimensionMixin"
   ],
-  "client": [],
+  "client": [
+    "DialogueScreenMixin"
+  ],
   "server": [],
   "injectors": {
     "defaultRequire": 1
