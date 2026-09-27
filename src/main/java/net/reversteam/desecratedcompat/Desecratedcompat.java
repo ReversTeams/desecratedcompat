@@ -8,5 +8,6 @@ public class Desecratedcompat {
     public static final String MODID = "desecratedcompat";
 
     public Desecratedcompat(FMLJavaModLoadingContext context) {
+        net.reversteam.desecratedcompat.network.ModNetwork.register();
     }
 }
