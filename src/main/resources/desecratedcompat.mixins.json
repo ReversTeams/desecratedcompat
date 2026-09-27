@@ -4,7 +4,8 @@
   "package": "net.reversteam.desecratedcompat.mixin",
   "refmap": "mixinmodtemplate.refmap.json",
   "mixins": [
-    "StormDimensionMixin"
+    "StormDimensionMixin",
+    "VertinTradeMenuMixin"
   ],
   "client": [
     "DialogueScreenMixin"

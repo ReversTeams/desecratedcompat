@@ -26,9 +26,7 @@ public class OpenDialoguePacket {
     }
 
     public static void handle(OpenDialoguePacket msg, Supplier<NetworkEvent.Context> ctx) {
-        // enqueueWork ensures this runs on the main thread
         ctx.get().enqueueWork(() -> {
-            // DistExecutor prevents the server from trying to load DialogueScreen and crashing
             DistExecutor.unsafeRunWhenOn(Dist.CLIENT, () -> () -> {
                 com.reverseeon.mod.client.screen.DialogueScreen.open(msg.npcId, msg.line, 0, 0, 0, 0, 0);
             });

@@ -72,7 +72,6 @@ public abstract class DialogueScreenMixin {
     private void onAvailableFor(int choice, CallbackInfoReturnable<Boolean> cir) {
         if (DIA_ID.equals(this.desecratedCompat$npcId)) {
             // Choice 0 = Trade/Open, Choice 2 = Gift. 
-            // Returning false forces the base game to render them as grayed out and unclickable.
             if (choice == 0 || choice == 1 || choice == 2) {
                 cir.setReturnValue(false);
             }
