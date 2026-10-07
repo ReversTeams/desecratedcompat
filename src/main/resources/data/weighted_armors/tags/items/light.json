@@ -99,6 +99,10 @@
     "otherverse:ruins_chestplate",
     "otherverse:ruins_leggings",
     "otherverse:ruins_boots",
-    "goety:malefic_helm"
+    "goety:malefic_helm",
+    "bloodyhell:blood_helmet",
+    "bloodyhell:blood_chestplate",
+    "bloodyhell:blood_leggings",
+    "bloodyhell:blood_boots"
   ]
 }

@@ -11,13 +11,13 @@
       "item": "hexalia:windsong"
     },
     {
-      "item": "celestisynth:starstruck_scrap"
+      "item": "desecratedcore:lunepse_crystal"
     },
     {
       "item": "hexalia:ancient_seed"
     }
   ],
   "output": {
-    "item": "hexalia:astrylis"
+    "item": "celestisynth:breezebreaker"
   }
 }

@@ -2,7 +2,7 @@
   "required": true,
   "minVersion": "0.8",
   "package": "net.reversteam.desecratedcompat.mixin",
-  "refmap": "mixinmodtemplate.refmap.json",
+  "refmap": "desecratedcompat.refmap.json",
   "mixins": [
     "StormDimensionMixin",
     "VertinTradeMenuMixin"

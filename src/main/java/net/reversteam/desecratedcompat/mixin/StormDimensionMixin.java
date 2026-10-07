@@ -20,23 +20,19 @@ public class StormDimensionMixin {
 
     private static final ResourceKey<Level> CUSTOM_STORM_DIM = ResourceKey.create(
         net.minecraft.core.registries.Registries.DIMENSION, 
-        ResourceLocation.parse("reverseeon:island_dim")
+        new ResourceLocation("reverseeon", "island_dim")
     );
 
     @Redirect(
         method = {
-            "onCommand", "onRegisterCommands", "onServerTick", "isUnderDove", // StormWeatherHandler
-            "onPlayerTick", // StormSyndrome
-            "onSpawn", // StormUnmaking
-            "start", "onLevelTick", // ManusRaid
-            "isDoveDimension", // DoveCoverage
-            "of", // DoveArrayView
-            "shouldRevert" // ChunkRevertState
+            "onCommand", "onRegisterCommands", "onServerTick", "isUnderDove",
+            "onPlayerTick", "onSpawn", "start", "onLevelTick",
+            "isDoveDimension", "of", "shouldRevert"
         },
         at = @At(
             value = "FIELD", 
             target = "Lnet/minecraft/world/level/Level;OVERWORLD:Lnet/minecraft/resources/ResourceKey;", 
-            remap = true
+            remap = true 
         )
     )
     private static ResourceKey<Level> redirectStormDimension() {
