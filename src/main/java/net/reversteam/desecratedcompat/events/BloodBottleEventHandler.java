@@ -26,7 +26,31 @@ public class BloodBottleEventHandler {
 
     @SubscribeEvent(priority = EventPriority.HIGHEST)
     public static void onRightClickBlock(PlayerInteractEvent.RightClickBlock event) {
-        if (event.getLevel().isClientSide() == false && event.getFace() == null) return;
+        if (event.getFace() == null) return;
+
+        if (event.getLevel().isClientSide()) {
+            Block clickedBlock = event.getLevel().getBlockState(event.getPos()).getBlock();
+            ResourceLocation blockId = ForgeRegistries.BLOCKS.getKey(clickedBlock);
+            boolean isCustomTank = blockId != null && (
+                blockId.equals(new ResourceLocation("butchery", "blood_grate")) ||
+                blockId.equals(new ResourceLocation("neepmeat", "basic_tank")) ||
+                blockId.equals(new ResourceLocation("neepmeat", "basic_glass_tank"))
+            );
+
+            if (isCustomTank) {
+                Item held = event.getEntity().getItemInHand(event.getHand()).getItem();
+                Item desecratedBloodBucket = ForgeRegistries.ITEMS.getValue(new ResourceLocation("desecratedcore", "blood_bucket"));
+                Item vampirismBloodBucket = ForgeRegistries.ITEMS.getValue(new ResourceLocation("vampirism", "blood_bucket"));
+                
+                if (held == Items.GLASS_BOTTLE || held == Items.BUCKET || 
+                   (desecratedBloodBucket != null && held == desecratedBloodBucket) || 
+                   (vampirismBloodBucket != null && held == vampirismBloodBucket)) {
+                    event.setCanceled(true);
+                    event.setCancellationResult(InteractionResult.PASS);
+                }
+            }
+            return;
+        }
 
         Player player = event.getEntity();
         InteractionHand hand = event.getHand();
@@ -59,18 +83,6 @@ public class BloodBottleEventHandler {
         ResourceLocation butcheryBloodLoc = new ResourceLocation("butchery", "blood");
         TagKey<Fluid> forgeBloodTag = TagKey.create(ForgeRegistries.FLUIDS.getRegistryKey(), new ResourceLocation("forge", "blood"));
 
-        if (event.getLevel().isClientSide()) {
-            if (isCustomTank) {
-                if (held == Items.GLASS_BOTTLE || held == Items.BUCKET || 
-                   (desecratedBloodBucket != null && held == desecratedBloodBucket) || 
-                   (vampirismBloodBucket != null && held == vampirismBloodBucket)) {
-                    event.setCanceled(true);
-                    event.setCancellationResult(InteractionResult.PASS);
-                }
-            }
-            return;
-        }
-
         // Blood Bucket Logic
         if (isVampirismBloodContainer || isCustomTank) {
             be.getCapability(ForgeCapabilities.FLUID_HANDLER, event.getFace()).ifPresent(handler -> {
@@ -87,7 +99,13 @@ public class BloodBottleEventHandler {
                     if (filled >= 1000) {
                         handler.fill(toFill, IFluidHandler.FluidAction.EXECUTE);
                         be.setChanged();
-                        player.setItemInHand(hand, new ItemStack(Items.BUCKET));
+                        
+                        heldItem.shrink(1);
+                        ItemStack emptyBucket = new ItemStack(Items.BUCKET);
+                        if (!player.getInventory().add(emptyBucket)) {
+                            player.drop(emptyBucket, false);
+                        }
+                        
                         event.setCanceled(true);
                         event.setCancellationResult(InteractionResult.SUCCESS);
                     } else {
@@ -127,19 +145,12 @@ public class BloodBottleEventHandler {
                             ItemStack newBucket;
                             if (vampirismBloodLoc.equals(foundBloodId)) {
                                 if (DesecratedCompatConfig.DISABLE_VAMPIRISM_BUCKET_CONVERSION.get()) {
-                                    Item bucketToGive = vampirismBloodBucket != null ? vampirismBloodBucket : desecratedBloodBucket;
-                                    newBucket = new ItemStack(bucketToGive != null ? bucketToGive : Items.BUCKET);
+                                    newBucket = new ItemStack(desecratedBloodBucket);
                                 } else {
-                                    Item bucketToGive = desecratedBloodBucket != null ? desecratedBloodBucket : vampirismBloodBucket;
-                                    newBucket = new ItemStack(bucketToGive != null ? bucketToGive : Items.BUCKET);
+                                    newBucket = new ItemStack(vampirismBloodBucket != null ? vampirismBloodBucket : Items.BUCKET);
                                 }
                             } else {
-                                Item bucketToGive = desecratedBloodBucket != null ? desecratedBloodBucket : Items.BUCKET;
-                                newBucket = new ItemStack(bucketToGive);
-                            }
-
-                            if (newBucket.getItem() == null || newBucket.isEmpty()) {
-                                newBucket = new ItemStack(Items.BUCKET);
+                                newBucket = new ItemStack(desecratedBloodBucket);
                             }
 
                             if (!player.getInventory().add(newBucket)) {

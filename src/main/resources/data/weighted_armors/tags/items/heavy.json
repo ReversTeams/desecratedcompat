@@ -107,6 +107,14 @@
     "goety:cursed_knight_chestplate",
     "goety:cursed_knight_leggings",
     "goety:cursed_knight_boots",
-    "goetyawaken:champion_boots"
+    "goetyawaken:champion_boots",
+    "modestmining:bronze_helmet",
+    "modestmining:bronze_chestplate",
+    "modestmining:bronze_leggings",
+    "modestmining:bronze_boots",
+    "modestmining:steel_helmet",
+    "modestmining:steel_chestplate",
+    "modestmining:steel_leggings",
+    "modestmining:steel_boots"
   ]
 }

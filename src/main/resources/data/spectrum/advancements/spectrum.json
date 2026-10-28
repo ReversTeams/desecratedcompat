@@ -11,17 +11,9 @@
     },
     "background": "spectrum:textures/gui/advancement_background.png"
   },
-  "criteria": {
-    "found_preservation_ruin": {
-      "trigger": "revelationary:advancement_gotten",
-      "conditions": {
-        "advancement_identifier": "spectrum:find_preservation_ruins"
-      }
-    }
-  },
-  "requirements": [
-    [
-      "found_preservation_ruin"
+  "rewards": {
+    "loot": [
+      "spectrum:advancement_reward/adv_spectrum"
     ]
-  ]
+  }
 }

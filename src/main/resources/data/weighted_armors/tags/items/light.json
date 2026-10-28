@@ -103,6 +103,10 @@
     "bloodyhell:blood_helmet",
     "bloodyhell:blood_chestplate",
     "bloodyhell:blood_leggings",
-    "bloodyhell:blood_boots"
+    "bloodyhell:blood_boots",
+    "modestmining:valkyrium_helmet",
+    "modestmining:valkyrium_chestplate",
+    "modestmining:valkyrium_leggings",
+    "modestmining:valkyrium_boots"
   ]
 }
