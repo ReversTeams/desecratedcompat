@@ -1,0 +1,14 @@
+{
+  "extra": [
+    {
+      "fracture:ankle_biter": 100
+    },
+    {
+      "fracture:flesh_slime": 100
+    },
+    {
+      "fracture:flesh_walker": 100
+    }
+  ],
+  "deny": []
+}

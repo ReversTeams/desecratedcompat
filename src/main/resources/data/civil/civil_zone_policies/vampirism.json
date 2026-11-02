@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "entries": [
+    {
+      "id": "vampirism_all",
+      "structures": [
+        "vampirism:crypt",
+        "vampirism:hunter_camp",
+        "vampirism:mother",
+        "vampirism:vampire_altar",
+        "vampirism:vampire_hut"
+      ],
+      "rules": {
+        "allow_hostile_spawn": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "replace": false,
+  "entries": [
+    {
+      "id": "integrated_all",
+      "structures": [
+        "idas:abandoned_lighthouse",
+        "idas:ancient_portal/nether_ancient_portal",
+        "idas:necromancers_spire",
+        "idas:sunken_ship/sunken_ship_coral",
+        "idas:tudor_pub",
+        "idas:wacky_wares"
+      ],
+      "rules": {
+        "allow_hostile_spawn": true
+      }
+    }
+  ]
+}

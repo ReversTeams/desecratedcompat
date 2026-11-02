@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "entries": [
+    {
+      "id": "macabre_all",
+      "structures": [
+        "modestmining:ancient_digging_site",
+        "modestmining:sandy_digging_site"
+      ],
+      "rules": {
+        "allow_hostile_spawn": true
+      }
+    }
+  ]
+}

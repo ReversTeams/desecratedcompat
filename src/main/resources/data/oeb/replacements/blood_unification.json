@@ -1,0 +1,10 @@
+[
+  {
+    "matchBlocks": [
+      "neepmeat:blood",
+      "fracture:blood_block",
+      "butchery:blood"
+    ],
+    "resultBlocks": "desecratedcore:blood"
+  }
+]

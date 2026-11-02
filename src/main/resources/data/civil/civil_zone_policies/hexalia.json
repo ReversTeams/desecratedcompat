@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "entries": [
+    {
+      "id": "hexalia_all",
+      "structures": [
+        "hexalia:herbalist_hut"
+      ],
+      "rules": {
+        "allow_hostile_spawn": true
+      }
+    }
+  ]
+}

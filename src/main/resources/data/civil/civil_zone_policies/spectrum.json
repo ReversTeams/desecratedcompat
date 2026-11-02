@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "entries": [
+    {
+      "id": "spectrum_all",
+      "structures": [
+        "spectrum:city_below",
+        "spectrum:excavation_site",
+        "spectrum:preservation_ruins"
+      ],
+      "rules": {
+        "allow_hostile_spawn": true
+      }
+    }
+  ]
+}

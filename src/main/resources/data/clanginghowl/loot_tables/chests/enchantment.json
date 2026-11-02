@@ -1,0 +1,51 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "rolls": {
+        "type": "minecraft:uniform",
+        "max": 8.0,
+        "min": 4.0
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 80,
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": [
+                "clanginghowl:ecological_energy",
+                "clanginghowl:tunnel_driller",
+                "clanginghowl:overdrive",
+                "clanginghowl:full_power",
+                "clanginghowl:killer_charge",
+                "clanginghowl:exceeding_the_limit",
+                "clanginghowl:chain_burn",
+                "clanginghowl:fuel_burst",
+                "clanginghowl:soul_burner"
+              ]
+            }
+          ],
+          "name": "minecraft:book"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 20,
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": [
+                "clanginghowl:energy_efficiency",
+                "clanginghowl:fuel_saving",
+                "clanginghowl:napalm_stream"
+              ]
+            }
+          ],
+          "name": "minecraft:book"
+        }
+      ]
+    }
+  ]
+}

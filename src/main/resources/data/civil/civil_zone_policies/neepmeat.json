@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "entries": [
+    {
+      "id": "neepmeat_all",
+      "structures": [
+        "neepmeat:jungle_pyramid"
+      ],
+      "rules": {
+        "allow_hostile_spawn": true
+      }
+    }
+  ]
+}

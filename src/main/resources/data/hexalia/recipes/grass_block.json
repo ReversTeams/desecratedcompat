@@ -1,0 +1,17 @@
+{
+  "type": "hexalia:ritual_table",
+  "ingredients": [
+    {
+      "item": "minecraft:dirt"
+    },
+    {
+      "item": "hexalia:earth_node"
+    },
+    {
+      "item": "minecraft:wheat_seeds"
+    }
+  ],
+  "output": {
+    "item": "minecraft:grass_block"
+  }
+}

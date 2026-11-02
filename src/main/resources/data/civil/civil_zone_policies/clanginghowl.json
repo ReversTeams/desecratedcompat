@@ -1,0 +1,20 @@
+{
+  "replace": false,
+  "entries": [
+    {
+      "id": "clanginghowl_all",
+      "structures": [
+        "clanginghowl:extraterrestrial_nest",
+        "clanginghowl:large_extraterrestrial_nest",
+        "clanginghowl:large_extraterrestrial_object",
+        "clanginghowl:medium_extraterrestrial_object",
+        "clanginghowl:research_cabin",
+        "clanginghowl:research_station",
+        "clanginghowl:small_extraterrestrial_object"
+      ],
+      "rules": {
+        "allow_hostile_spawn": true
+      }
+    }
+  ]
+}

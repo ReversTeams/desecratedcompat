@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "entries": [
+    {
+      "id": "sons_of_sins_all",
+      "structures": [
+        "sons_of_sins:sinful_church"
+      ],
+      "rules": {
+        "allow_hostile_spawn": true
+      }
+    }
+  ]
+}

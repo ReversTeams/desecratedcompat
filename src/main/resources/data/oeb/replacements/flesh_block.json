@@ -1,0 +1,8 @@
+[
+  {
+    "matchBlocks": [
+      "desecratedcore:raw_meat_block"
+    ],
+    "resultBlocks": "otherverse:intestines"
+  }
+]

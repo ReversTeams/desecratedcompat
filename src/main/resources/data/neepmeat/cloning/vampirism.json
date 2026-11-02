@@ -1,0 +1,11 @@
+{
+  "extra": [
+    {
+      "vampirism:hunter": 100
+    },
+    {
+      "vampirism:vampire": 100
+    }
+  ],
+  "deny": []
+}

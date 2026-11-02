@@ -1,0 +1,26 @@
+{
+  "extra": [
+    {
+      "clanginghowl:blood_spreader": 100
+    },
+    {
+      "clanginghowl:carcass": 100
+    },
+    {
+      "clanginghowl:extraterrestrial_reaper": 100
+    },
+    {
+      "clanginghowl:flesh_maiden": 100
+    },
+    {
+      "clanginghowl:heart_of_decay": 100
+    },
+    {
+      "clanginghowl:hematoma": 100
+    },
+    {
+      "clanginghowl:prowler": 100
+    }
+  ],
+  "deny": []
+}

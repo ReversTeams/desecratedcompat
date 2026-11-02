@@ -1,0 +1,54 @@
+{
+  "replace": false,
+  "entries": [
+    {
+      "id": "goety_all",
+      "structures": [
+        "bosgoety:adventure_tents",
+        "bosgoety:behemoth_graveyard",
+        "bosgoety:end_passage",
+        "bosgoety:end_post",
+        "bosgoety:foregone_home",
+        "bosgoety:light_pillager_outpost",
+        "bosgoety:preachers_chapel",
+        "bosgoety:raider_camp",
+        "bosgoety:rotten_shed",
+        "bosgoety:ruined_monument",
+        "bosgoety:snow_fort",
+        "bosgoety:stone_resting",
+        "bosgoety:strange_portal",
+        "bosgoety:trampler_stable",
+        "bosgoety:void_well",
+        "bosgoety:water_idol",
+        "goety:black_assembly",
+        "goety:buried_ritual",
+        "goety:mangrove_tower",
+        "goety:royal_tribute",
+        "goety:secluded_igloo",
+        "goetyawaken:abandoned_tower",
+        "goetyawaken:absolute_citadel",
+        "goetyawaken:arch_illusioner_keep",
+        "goetyawaken:boreal_spire",
+        "goetyawaken:endersent_in_end",
+        "goetyawaken:gauntlet_of_howling",
+        "goetyawaken:greatsword_burial_site",
+        "goetyawaken:illager_station",
+        "goetyawaken:invaded_shack",
+        "goetyawaken:nocturnal_rite",
+        "goetyawaken:pristine_shack",
+        "goetyawaken:ruined_camp",
+        "goetyawaken:secluded_cottage",
+        "goetyawaken:secret_kitchen",
+        "goetyawaken:shelter",
+        "goetyawaken:snowy_abandoned_tower",
+        "goetyawaken:temple_of_apollyon",
+        "goetyawaken:the_mausoleum",
+        "goetyawaken:tidal_tomb",
+        "goetyhostility:raging_inferno"
+      ],
+      "rules": {
+        "allow_hostile_spawn": true
+      }
+    }
+  ]
+}

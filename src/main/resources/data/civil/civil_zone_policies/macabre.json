@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "entries": [
+    {
+      "id": "macabre_all",
+      "structures": [
+        "macabre:prayer_altar",
+        "macabre:swamp_arch_common",
+        "macabre:swamp_arch_giant",
+        "macabre:swamp_arch_titanic",
+        "macabre:tumor_spike"
+      ],
+      "rules": {
+        "allow_hostile_spawn": true
+      }
+    }
+  ]
+}

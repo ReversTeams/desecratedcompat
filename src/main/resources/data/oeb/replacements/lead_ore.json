@@ -1,0 +1,8 @@
+[
+  {
+    "matchBlocks": [
+      "modestmining:lead_ore"
+    ],
+    "resultBlocks": "minecraft:iron_ore"
+  }
+]

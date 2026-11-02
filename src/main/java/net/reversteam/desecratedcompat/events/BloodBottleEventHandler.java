@@ -32,15 +32,15 @@ public class BloodBottleEventHandler {
             Block clickedBlock = event.getLevel().getBlockState(event.getPos()).getBlock();
             ResourceLocation blockId = ForgeRegistries.BLOCKS.getKey(clickedBlock);
             boolean isCustomTank = blockId != null && (
-                blockId.equals(new ResourceLocation("butchery", "blood_grate")) ||
-                blockId.equals(new ResourceLocation("neepmeat", "basic_tank")) ||
-                blockId.equals(new ResourceLocation("neepmeat", "basic_glass_tank"))
+                blockId.equals(ResourceLocation.fromNamespaceAndPath("butchery", "blood_grate")) ||
+                blockId.equals(ResourceLocation.fromNamespaceAndPath("neepmeat", "basic_tank")) ||
+                blockId.equals(ResourceLocation.fromNamespaceAndPath("neepmeat", "basic_glass_tank"))
             );
 
             if (isCustomTank) {
                 Item held = event.getEntity().getItemInHand(event.getHand()).getItem();
-                Item desecratedBloodBucket = ForgeRegistries.ITEMS.getValue(new ResourceLocation("desecratedcore", "blood_bucket"));
-                Item vampirismBloodBucket = ForgeRegistries.ITEMS.getValue(new ResourceLocation("vampirism", "blood_bucket"));
+                Item desecratedBloodBucket = ForgeRegistries.ITEMS.getValue(ResourceLocation.fromNamespaceAndPath("desecratedcore", "blood_bucket"));
+                Item vampirismBloodBucket = ForgeRegistries.ITEMS.getValue(ResourceLocation.fromNamespaceAndPath("vampirism", "blood_bucket"));
                 
                 if (held == Items.GLASS_BOTTLE || held == Items.BUCKET || 
                    (desecratedBloodBucket != null && held == desecratedBloodBucket) || 
@@ -63,25 +63,25 @@ public class BloodBottleEventHandler {
         Block clickedBlock = event.getLevel().getBlockState(event.getPos()).getBlock();
         ResourceLocation blockId = ForgeRegistries.BLOCKS.getKey(clickedBlock);
         
-        boolean isVampirismBloodContainer = blockId != null && blockId.equals(new ResourceLocation("vampirism", "blood_container"));
+        boolean isVampirismBloodContainer = blockId != null && blockId.equals(ResourceLocation.fromNamespaceAndPath("vampirism", "blood_container"));
         
         if (isVampirismBloodContainer && DesecratedCompatConfig.DISABLE_VAMPIRISM_CONTAINER_INTERACTION.get()) {
             return; 
         }
 
-        boolean isBloodGrate = blockId != null && blockId.equals(new ResourceLocation("butchery", "blood_grate"));
-        boolean isBasicTank = blockId != null && blockId.equals(new ResourceLocation("neepmeat", "basic_tank"));
-        boolean isBasicGlassTank = blockId != null && blockId.equals(new ResourceLocation("neepmeat", "basic_glass_tank"));
+        boolean isBloodGrate = blockId != null && blockId.equals(ResourceLocation.fromNamespaceAndPath("butchery", "blood_grate"));
+        boolean isBasicTank = blockId != null && blockId.equals(ResourceLocation.fromNamespaceAndPath("neepmeat", "basic_tank"));
+        boolean isBasicGlassTank = blockId != null && blockId.equals(ResourceLocation.fromNamespaceAndPath("neepmeat", "basic_glass_tank"));
         boolean isCustomTank = isBloodGrate || isBasicTank || isBasicGlassTank;
 
-        Fluid vampirismBlood = ForgeRegistries.FLUIDS.getValue(new ResourceLocation("vampirism", "blood"));
-        Item desecratedBloodBucket = ForgeRegistries.ITEMS.getValue(new ResourceLocation("desecratedcore", "blood_bucket"));
-        Item vampirismBloodBucket = ForgeRegistries.ITEMS.getValue(new ResourceLocation("vampirism", "blood_bucket"));
+        Fluid vampirismBlood = ForgeRegistries.FLUIDS.getValue(ResourceLocation.fromNamespaceAndPath("vampirism", "blood"));
+        Item desecratedBloodBucket = ForgeRegistries.ITEMS.getValue(ResourceLocation.fromNamespaceAndPath("desecratedcore", "blood_bucket"));
+        Item vampirismBloodBucket = ForgeRegistries.ITEMS.getValue(ResourceLocation.fromNamespaceAndPath("vampirism", "blood_bucket"));
 
-        ResourceLocation desecratedBloodLoc = new ResourceLocation("desecratedcore", "blood");
-        ResourceLocation vampirismBloodLoc = new ResourceLocation("vampirism", "blood");
-        ResourceLocation butcheryBloodLoc = new ResourceLocation("butchery", "blood");
-        TagKey<Fluid> forgeBloodTag = TagKey.create(ForgeRegistries.FLUIDS.getRegistryKey(), new ResourceLocation("forge", "blood"));
+        ResourceLocation desecratedBloodLoc = ResourceLocation.fromNamespaceAndPath("desecratedcore", "blood");
+        ResourceLocation vampirismBloodLoc = ResourceLocation.fromNamespaceAndPath("vampirism", "blood");
+        ResourceLocation butcheryBloodLoc = ResourceLocation.fromNamespaceAndPath("butchery", "blood");
+        TagKey<Fluid> forgeBloodTag = TagKey.create(ForgeRegistries.FLUIDS.getRegistryKey(), ResourceLocation.fromNamespaceAndPath("forge", "blood"));
 
         // Blood Bucket Logic
         if (isVampirismBloodContainer || isCustomTank) {
@@ -197,7 +197,7 @@ public class BloodBottleEventHandler {
                         heldItem.shrink(1);
                         
                         ItemStack bloodBottle = new ItemStack(ForgeRegistries.ITEMS.getValue(
-                                new ResourceLocation("vampirism", "blood_bottle")
+                                ResourceLocation.fromNamespaceAndPath("vampirism", "blood_bottle")
                         ));
                         
                         if (bloodBottle != null && bloodBottle.getItem() != Items.AIR) {

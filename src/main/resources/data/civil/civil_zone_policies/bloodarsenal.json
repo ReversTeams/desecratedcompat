@@ -1,0 +1,25 @@
+{
+  "replace": false,
+  "entries": [
+    {
+      "id": "blood_arsenal_reawakened_all",
+      "structures": [
+        "blood_arsenal_reawakened:angel_arena",
+        "blood_arsenal_reawakened:dark_bone_hole",
+        "blood_arsenal_reawakened:dark_camp",
+        "blood_arsenal_reawakened:dark_ruine",
+        "blood_arsenal_reawakened:dark_schmiede",
+        "blood_arsenal_reawakened:dark_tower",
+        "blood_arsenal_reawakened:devil_arena",
+        "blood_arsenal_reawakened:light_bone_hole",
+        "blood_arsenal_reawakened:light_camp",
+        "blood_arsenal_reawakened:light_ruine",
+        "blood_arsenal_reawakened:light_schmiede",
+        "blood_arsenal_reawakened:light_tower"
+      ],
+      "rules": {
+        "allow_hostile_spawn": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "entries": [
+    {
+      "id": "structureplus_all",
+      "structures": [
+        "structuresplus:ruin",
+        "structuresplus:council_of_the_trapped_ruins"
+      ],
+      "rules": {
+        "allow_hostile_spawn": true
+      }
+    }
+  ]
+}

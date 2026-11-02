@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "entries": [
+    {
+      "id": "terralith_all",
+      "structures": [
+        "terralith:desert_outpost",
+        "terralith:glacial_hut",
+        "terralith:igloo",
+        "terralith:spire",
+        "terralith:underground/witch_hut",
+        "terralith:underground_cabin",
+        "terralith:valley_lodge",
+        "terralith:witch_hut"
+      ],
+      "rules": {
+        "allow_hostile_spawn": true
+      }
+    }
+  ]
+}

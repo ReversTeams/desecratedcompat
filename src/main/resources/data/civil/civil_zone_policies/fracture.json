@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "entries": [
+    {
+      "id": "fracture_all",
+      "structures": [
+        "fracture:pillager_tower",
+        "fracture:village_snowman"
+      ],
+      "rules": {
+        "allow_hostile_spawn": true
+      }
+    }
+  ]
+}

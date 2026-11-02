@@ -1,8 +1,8 @@
 [
   {
     "matchBlocks": [
-      "fracture:bloody_bookshelf"
+      "desecratedcore:bloody_bookshelf"
     ],
-    "resultBlocks": "desecratedcore:bloody_bookshelf"
+    "resultBlocks": "fracture:bloody_bookshelf"
   }
 ]

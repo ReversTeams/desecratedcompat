@@ -1,0 +1,9 @@
+[
+  {
+    "matchItems": [
+      "macabre:intestines",
+      "incision:intestine"
+    ],
+    "resultItems": "butchery:intestines"
+  }
+]

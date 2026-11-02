@@ -1,0 +1,28 @@
+{
+  "replace": false,
+  "entries": [
+    {
+      "id": "grim_kingdoms_all",
+      "structures": [
+        "grim_kingdoms:zweiberg",
+        "grim_kingdoms:winterhold_citadel",
+        "grim_kingdoms:whitewarden_keep",
+        "grim_kingdoms:travelers_lodge",
+        "grim_kingdoms:stonyfell_outpost",
+        "grim_kingdoms:snowgrave_citadel",
+        "grim_kingdoms:silentgale_citadel",
+        "grim_kingdoms:shardspire_castle",
+        "grim_kingdoms:glimmervault_fortress",
+        "grim_kingdoms:glacierfall_keep",
+        "grim_kingdoms:frozen_onion_fort",
+        "grim_kingdoms:frostbloom_bastion",
+        "grim_kingdoms:blackridge_watch",
+        "grim_kingdoms:chill_hallmanor",
+        "grim_kingdoms:decrown_monolith"
+      ],
+      "rules": {
+        "allow_hostile_spawn": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "replace": false,
+  "entries": [
+    {
+      "id": "netherman_all",
+      "structures": [
+        "netherman:believer_house",
+        "netherman:eye_columns",
+        "netherman:gast_chamber",
+        "netherman:gehen_statue",
+        "netherman:head_altar",
+        "netherman:mansion_nether",
+        "netherman:maze",
+        "netherman:monument",
+        "netherman:nether_geyser",
+        "netherman:pipes",
+        "netherman:trap"
+      ],
+      "rules": {
+        "allow_hostile_spawn": true
+      }
+    }
+  ]
+}

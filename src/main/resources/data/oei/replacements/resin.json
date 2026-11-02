@@ -1,0 +1,8 @@
+[
+  {
+    "matchItems": [
+      "minecraft:resin_clump"
+    ],
+    "resultItems": "hexalia:tree_resin"
+  }
+]

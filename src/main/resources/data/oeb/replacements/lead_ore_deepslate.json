@@ -1,0 +1,8 @@
+[
+  {
+    "matchBlocks": [
+      "modestmining:deepslate_lead_ore"
+    ],
+    "resultBlocks": "minecraft:deepslate_iron_ore"
+  }
+]
