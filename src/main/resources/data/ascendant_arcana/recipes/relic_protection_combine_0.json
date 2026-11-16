@@ -9,6 +9,6 @@
       "item": "ascendant_arcana:relic"
     }
   ],
-  "relic": 2,
+  "relic": "ascendant_arcana:protection",
   "strength": 2
 }

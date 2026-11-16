@@ -12,6 +12,6 @@
       "item": "reliquary:void_tear"
     }
   ],
-  "relic": 4,
+   "relic": "ascendant_arcana:enchantment_capacity",
   "strength": 2
 }
