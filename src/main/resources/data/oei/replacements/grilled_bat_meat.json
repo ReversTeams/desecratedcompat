@@ -1,0 +1,8 @@
+[
+  {
+    "matchItems": [
+      "butchery:cooked_bat_meat"
+    ],
+    "resultItems": "vampiresdelight:grilled_bat"
+  }
+]
