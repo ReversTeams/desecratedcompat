@@ -6,7 +6,11 @@
   "mixins": [
     "StormDimensionMixin",
     "VertinTradeMenuMixin",
-    "AArcanaEnchantingMenuPowerMixin"
+    "AArcanaEnchantingMenuPowerMixin",
+    "MeatgrinderrecipeprocedureProcedureMixin",
+    "MeatgrinderguiMenuMixin",
+    "UmbrellaItemMixin",
+    "VampirePlayerMixin"
   ],
   "client": [
     "DialogueScreenMixin"
